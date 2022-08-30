@@ -1,0 +1,30 @@
+body {
+    font-size: 14pt;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+img {
+    width: 650px;
+    margin: auto;
+    padding: 5px 125px;
+}
+.tables {
+    padding-left: 570px;
+    display:block;
+}
+.textarea {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    height: 20px;
+    border-color: white;
+    overflow: hidden;
+    vertical-align: text-top;
+}
+.name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    height: 60px;
+    border-color: white;
+    vertical-align: text-top;
+    overflow: hidden;
+}

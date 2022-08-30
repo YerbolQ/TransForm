@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ЭПИКРИЗ</title>
+        <link rel="stylesheet" href="epistyle.css">
+    </head>
+    <body>
+        <form>
+            <button type="submit" formaction="index.html">Вернуться к выбору форм</button> 
+            <button onclick="window.print();return false">Распечатать форму</button>
+        </form>
+          <img src="logoNeuro.png" alt="">
+            <table cellspacing="1" cellpadding="1">
+                <tbody>
+                    <td class="tables">
+                        ФИО пациента: <input class="textdate" type="text">
+                        <br><input class="textid" type="text">
+                        <br>Дата рождения: <input class="textdate" type="text">
+                        <br>Номер истории: <input class="textdate" type="text">
+                    </td>
+                </tbody>
+            </table>
+        <div>
+            <p style="text-align: center"><b>Предтрансфузионный эпикриз</b></p>
+        </div>
+            Дата: <input class="textdate" type="text"> Время: <input class="textdate" type="text"> Вес: <input class="textdate" type="text">
+        <div>
+            <input type="checkbox">&nbsp; Согласие на переливание компонентов и препаратов крови получено.
+        </div>
+        <div>
+            <b>Трансфузионный анамнез в истории болезни:</b>
+        </div>
+        <div>
+            <input type="checkbox">&nbsp;трансфузий ранее не проводилось <input type="checkbox"> трансфузионный анамнез без особенностей
+        </div>
+        <div>
+           <input type="checkbox"> имели место посттрансфузионные осложнения, указать какие:<textarea wrap="soft" class="textarea"></textarea>
+        </div>
+        <div>
+            <b>Акушерский анамнез для женщин:</b>
+        </div>
+        <div>
+           <input type="checkbox">&nbsp;без особенностей
+            <input type="checkbox"> многократные (5 раз и более) беременности
+        </div>
+        <div>
+            <b>Иммуногематологические особенности:</b>
+        </div>
+        <div>
+            <input type="checkbox">&nbsp;не выявлены&nbsp; 
+            <input type="checkbox"> антиэритроцитарные антитела не исследовались&nbsp;
+        </div>
+        <div>
+            <input type="checkbox"> выявлены вариантные формы антигенов или экстраагглютинины
+        </div>
+        <div>
+           <input type="checkbox"> выявлены иммунные антиэритроцитарные антитела (указать специфичность, <br> <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> если известно): <input class="textboxlong" type="text">
+        </div>
+        <div>
+            <b> ПОКАЗАНИЯ для эритроцитсодержащих компонентов крови (ЭКК):</b>
+        </div>
+        <div> 
+            ОАК, КЩС от <input class="textdate" type="text">
+        </div>
+        <div> 
+            Одна доза эритроцитов у взрослых увеличит гемоглобин примерно на 10г/л, детям 10-15мл
+        </div>
+        <div>
+            <input type="checkbox"> острая анемия, гемоглобин <input class="textbox" type="text"> 
+        </div>
+        <div>
+            <input type="checkbox"> хроническая некомпенсированная анемия, гемоглобин <input class="textbox" type="text">, клинические данные: <br> <label>&nbsp;&nbsp;&nbsp;&nbsp;</label> жалобы на выраженную слабость, ЧДД: <input class="textbox" type="text"> Ps: <input class="textbox" type="text"> АД:<input class="textbox" type="text">
+        </div>
+        <div>
+            <input type="checkbox"> снижение доставки О2 при анемии, Hb <input class="textbox" type="text"> РаО2 <input class="textbox" type="text"> РvО2: <input class="textbox" type="text"> 
+        </div>
+        <div>
+            Расчетная доза: <input class="textboxlong" type="text">
+        </div>
+        <div>
+            <b>ПОКАЗАНИЯ для СЗП/криопреципитата:</b>
+        </div>
+        <div>
+           Данные коагулограммы от <input class="textdate" type="text">
+        </div>
+        <div>
+            ПТИ: <input class="textbox" type="text"> МНО: <input class="textbox" type="text"> АЧТВ: <input class="textbox" type="text"> Фибриноген: <input class="textbox" type="text"> АТIII: <input class="textbox" type="text"> ВСК: <input class="textbox" type="text"> <br> ПТВ: <input class="textbox" type="text"> ТВ: <input class="textbox" type="text"> ТЭГ: <input class="teg" type="text">
+        </div>
+        <div>
+            <input type="checkbox"> дефицит факторов коагуляционного гемостаза
+        </div>
+        <div>
+            <input type="checkbox"> дефицит плазменных антикоагулянтов
+        </div>
+        <div>
+           <input type="checkbox"> плазмообмен
+        </div>
+        <div>
+            <input type="checkbox"> острая массивная кровопотеря
+        </div>
+        <div>
+            Расчетная доза (12-20мл/кг):<input class="textboxlong" type="text">
+        </div>
+        <div>
+            <b>ПОКАЗАНИЯ для Тромбоцитов:</b>количество тромбоцитов<input class="textbox" type="text">*10<sup>9</sup>/л ТЭГ:<input class="textdate" type="text">
+        </div>
+        <div>
+            Анализ от: <input class="textdate" type="text">
+        </div>
+        <div>
+            <input type="checkbox"> тромбоцитопения менее 20*10<sup>9</sup>/л, геморрагический тромбоципенический синдром
+        </div>
+        <div>
+            <input type="checkbox"> тромбоцитопения менее 10*10<sup>9</sup>/л без геморрагического синдрома
+        </div>
+        <div>
+           <input type="checkbox"> тромбоцитопения менее 50*10<sup>9</sup>/л, хирургическая операция
+        </div>
+        <div>
+            <input type="checkbox"> тромбоцитопения менее 50*10<sup>9</sup>/л, хирургическая операция
+        </div>
+        <div>
+           <input type="checkbox"> тромбоцитопения менее 100*10<sup>9</sup>/л, нейрохирургическая операция
+        </div>
+        <div>
+            <input type="checkbox"> Расчетная доза (50-70х10<sup>9</sup>л на каждые 10 кг массы тела):<input class="textdate" type="text">
+        </div>
+        <div>
+            <b>ПОКАЗАНИЯ для альбумина:</b> Анализ от: <input class="textdate" type="text">
+        </div>
+        <div>
+            <input type="checkbox"> Гипопротеинемия/гипоальбуминемия <input class="textbox" type="text">,&nbsp; дозировка <input class="textdate" type="text">
+        </div>
+        <div>
+            <br><b>Ф.И.О., ID врача обосновавшего показания к трансфузии</b>_______________________________
+        </div>
+        <div>
+            <b> Показания проверены, подтверждаю Ф.И.О.,ID</b>________________________________________
+        </div>
+    </body>
+</html>
