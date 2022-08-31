@@ -10,18 +10,20 @@
             <button onclick="window.print();return false">Распечатать форму</button>
         </form>
           <img src="logoNeuro.png" alt="">
-            <table cellspacing="1" cellpadding="1">
-                <tbody>
-                    <td class="tables">
-                        ФИО пациента: <input class="textdate" type="text">
-                        <br><input class="textid" type="text">
-                        <br>Дата рождения: <input class="textdate" type="text">
-                        <br>Номер истории: <input class="textdate" type="text">
-                    </td>
-                </tbody>
-            </table>
+            <div style="float: right;">
+                <table cellspacing="1" cellpadding="1" >
+                    <tbody> <th class="tab"></th>
+                        <td class="tab">
+                            ФИО пациента: <input class="textdate" type="text">
+                            <br> <input class="textid" type="text">
+                            <br>Дата рождения: <input class="textdate" type="text">
+                            <br>Номер истории: <input class="textdate" type="text">
+                        </td>
+                    </tbody>
+                </table>
+            </div>
         <div>
-            <p style="text-align: center"><b>Предтрансфузионный эпикриз</b></p>
+            <p class="name" style="text-align: center"><b>Предтрансфузионный эпикриз</b></p>
         </div>
             Дата: <input class="textdate" type="text"> Время: <input class="textdate" type="text"> Вес: <input class="textdate" type="text">
         <div>
@@ -96,7 +98,7 @@
            <input type="checkbox"> плазмообмен
         </div>
         <div>
-            <input type="checkbox"> острая массивная кровопотеря
+            <input type="checkbox"> острая массивная кровопотеря >30% ОЦК
         </div>
         <div>
             Расчетная доза (12-20мл/кг):<input class="textboxlong" type="text">
@@ -123,19 +125,20 @@
            <input type="checkbox"> тромбоцитопения менее 100*10<sup>9</sup>/л, нейрохирургическая операция
         </div>
         <div>
-            <input type="checkbox"> Расчетная доза (50-70х10<sup>9</sup>л на каждые 10 кг массы тела):<input class="textdate" type="text">
+            <input type="checkbox"> Расчетная доза (50-70х10<sup>9</sup>л на каждые 10 кг массы тела):<input class="textid" type="text">
         </div>
         <div>
             <b>ПОКАЗАНИЯ для альбумина:</b> Анализ от: <input class="textdate" type="text">
         </div>
         <div>
-            <input type="checkbox"> Гипопротеинемия/гипоальбуминемия <input class="textbox" type="text">,&nbsp; дозировка <input class="textdate" type="text">
+            <input type="checkbox"> Гипопротеинемия/гипоальбуминемия <input class="textbox" type="text">,&nbsp; дозировка <input class="textid" type="text">
         </div>
         <div>
             <br><b>Ф.И.О., ID врача обосновавшего показания к трансфузии</b>_______________________________
         </div>
         <div>
-            <b> Показания проверены, подтверждаю Ф.И.О.,ID</b>________________________________________
+            <p><b> Показания проверены, подтверждаю Ф.И.О.,ID
+            </b>________________________________________</p>
         </div>
     </body>
 </html>
