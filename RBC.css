@@ -1,10 +1,10 @@
 body {
-    font-size: 12pt;
+    font-size: 13pt;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     height: 297mm;
     width: 210mm;
-    margin-left: 2.5cm; 
+    margin-left: 2.2cm; 
     margin-right: 1.5cm;
 }
 img {
@@ -51,6 +51,66 @@ th.header {
     height: 18px;
     font-size: 11pt; 
     font-family: 'Times New Roman', Times, serif;
+}
+.txt3 {
+    width: 145px;
+    height: 18px;
+    font-size: 11pt; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.txt4 {
+    width: 380px;
+    height: 18px;
+    font-size: 11pt; 
+    letter-spacing: 1.4;
+    font-family: 'Times New Roman', Times, serif;
+}
+.txt5 {
+    width: 295px;
+    height: 18px;
+    font-size: 11pt; 
+    letter-spacing: 1.4;
+    font-family: 'Times New Roman', Times, serif;
+}
+.txt6 {
+    width: 222px;
+    height: 18px;
+    font-size: 11pt; 
+    letter-spacing: 1.1;
+    font-family: 'Times New Roman', Times, serif;
+}
+.txt7 {
+    width: 746px;
+    height: 18px;
+    font-size: 11pt; 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.txt8 {
+    width: 50px;
+    height: 18px;
+    font-size: 11pt; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.txt9 {
+    width: 794px;
+    height: 18px;
+    font-size: 11pt; 
+}
+.txt10 {
+    width: 486px;
+    height: 18px;
+    font-size: 11pt; 
+}
+.txt11 {
+    width: 203px;
+    height: 18px;
+    font-size: 11pt; 
+}
+.txt12 {
+    width: 518px;
+    height: 18px;
+    font-size: 11pt; 
 }
 .txtsup {
     margin: 0 0 0 510;
