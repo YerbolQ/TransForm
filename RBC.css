@@ -1,0 +1,60 @@
+body {
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    height: 297mm;
+    width: 210mm;
+    margin-left: 2.5cm; 
+    margin-right: 1.5cm;
+}
+img {
+    width: 650px;
+    margin: auto;
+    padding: 5 60;
+}
+td.tab {
+    padding-left: 5px;
+    border-collapse: collapse;
+    border:1px solid;  
+    text-align: right; 
+}
+.name {
+    margin: auto;
+    padding: 130 0 15 0;
+}
+th.header {
+    font-size: 8pt;
+    font-family:'Times New Roman', Times, serif; 
+    text-align: left;
+    font-weight: bold;
+}
+.textdate {
+    width: 150px;
+    height: 18px;
+    font-size: 11pt; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.textid {
+    width: 260px;
+    height: 18px;
+    font-size: 11pt; 
+    font-family: 'Times New Roman', Times, serif;
+}   
+.txt1 {
+    width: 380px;
+    height: 18px;
+    font-size: 11pt; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.txt2 {
+    width: 168px;
+    height: 18px;
+    font-size: 11pt; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.txtsup {
+    margin: 0 0 0 510;
+}
+@media print {
+    form { display: none; }
+}
