@@ -6,11 +6,11 @@ body {
     width: 210mm;
     margin-left: 2.2cm; 
     margin-right: 1.5cm;
-}
+    }
 img {
     width: 650px;
     margin: auto;
-    padding: 5 60;
+    padding: 20 70;
 }
 td.tab {
     padding-left: 5px;
@@ -20,7 +20,7 @@ td.tab {
 }
 .name {
     margin: auto;
-    padding: 130 0 15 0;
+    padding: 135 0 25 0;
 }
 th.header {
     font-size: 8pt;
@@ -29,88 +29,80 @@ th.header {
     font-weight: bold;
 }
 .textdate {
-    width: 150px;
-    height: 18px;
-    font-size: 11pt; 
+    width: 190px;
+    height: 20px;
+    font-size: 13pt; 
     font-family: 'Times New Roman', Times, serif;
 }
 .textid {
-    width: 260px;
-    height: 18px;
-    font-size: 11pt; 
+    width: 300px;
+    height: 20px;
+    font-size: 13pt; 
     font-family: 'Times New Roman', Times, serif;
 }   
 .txt1 {
-    width: 380px;
-    height: 18px;
-    font-size: 11pt; 
+    width: 350px;
+    height: 20px;
+    font-size: 13pt; 
     font-family: 'Times New Roman', Times, serif;
 }
 .txt2 {
-    width: 168px;
-    height: 18px;
-    font-size: 11pt; 
+    width: 120px;
+    height: 20px;
+    font-size: 13pt; 
     font-family: 'Times New Roman', Times, serif;
 }
 .txt3 {
-    width: 145px;
-    height: 18px;
-    font-size: 11pt; 
+    width: 91px;
+    height: 20px;
+    font-size: 13pt; 
     font-family: 'Times New Roman', Times, serif;
 }
 .txt4 {
     width: 380px;
-    height: 18px;
-    font-size: 11pt; 
-    letter-spacing: 1.4;
+    height: 20px;
+    font-size: 13pt; 
     font-family: 'Times New Roman', Times, serif;
 }
 .txt5 {
-    width: 295px;
-    height: 18px;
-    font-size: 11pt; 
-    letter-spacing: 1.4;
+    width: 273px;
+    height: 20px;
+    font-size: 13pt; 
     font-family: 'Times New Roman', Times, serif;
 }
 .txt6 {
-    width: 222px;
-    height: 18px;
-    font-size: 11pt; 
-    letter-spacing: 1.1;
+    width: 174px;
+    height: 20px;
+    font-size: 13pt; 
     font-family: 'Times New Roman', Times, serif;
 }
 .txt7 {
-    width: 746px;
-    height: 18px;
-    font-size: 11pt; 
+    width: 617px;
+    height: 20px;
+    font-size: 13pt; 
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 .txt8 {
     width: 50px;
-    height: 18px;
-    font-size: 11pt; 
+    height: 20px;
+    font-size: 13pt; 
     font-family: 'Times New Roman', Times, serif;
 }
 .txt9 {
     width: 794px;
-    height: 18px;
-    font-size: 11pt; 
+    height: 20px;
+    font-size: 13pt; 
 }
 .txt10 {
-    width: 486px;
-    height: 18px;
-    font-size: 11pt; 
+    width: 450px;
+    height: 20px;
+    font-size: 13pt; 
 }
 .txt11 {
-    width: 203px;
-    height: 18px;
-    font-size: 11pt; 
-}
-.txt12 {
-    width: 518px;
-    height: 18px;
-    font-size: 11pt; 
+    width: 154px;
+    height: 20px;
+    font-size: 13pt; 
 }
 .txtsup {
     margin: 0 0 0 510;
